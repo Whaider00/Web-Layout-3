@@ -98,3 +98,11 @@ nav{
 .full-item img{
     width: 100%;
 }
+#section-title{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+#available-movies{
+    display: flex;
+}
