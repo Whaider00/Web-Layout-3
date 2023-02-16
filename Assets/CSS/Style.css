@@ -103,7 +103,7 @@ nav{
     font-size: 2rem;
     padding: 2rem 0;
 }
-#available-movies{
+#available-movie-1{
     display: flex;
     background-color: var(--black);
     color: var(--white);
@@ -124,4 +124,7 @@ nav{
 }
 .available-movie-title h3{
     text-decoration: underline;
+}
+.available-movie-image{
+    height: 56.25rem;
 }
