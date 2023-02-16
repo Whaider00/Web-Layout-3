@@ -105,4 +105,23 @@ nav{
 }
 #available-movies{
     display: flex;
+    background-color: var(--black);
+    color: var(--white);
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 4rem;
+}
+.available-movie-title h1{
+    font-size: 2rem;
+    padding-bottom: 0.625rem;
+}
+.available-movie-title h4{
+    padding-bottom: 1rem;
+}
+.available-movie-title p{
+    padding-bottom: 1.25rem;
+    line-height: 1.4rem;
+}
+.available-movie-title h3{
+    text-decoration: underline;
 }
