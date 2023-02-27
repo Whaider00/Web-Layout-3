@@ -76,7 +76,7 @@ nav{
     max-width: 100%;
 }
 .two-items{
-    flex-basis: 48%;
+    flex-basis: 49%;
 }
 .three-items{
     flex-basis: 32%;
@@ -202,3 +202,35 @@ nav{
 #download-detail-3 h2{
     font-size: 2.5rem;
 }
+#movie-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+#movie-section img{
+    width: 100%;
+    object-fit: cover;
+    height: 15rem;
+}
+.movie-seciotn-items{
+    flex-grow: 1;
+    margin-bottom: 0.251rem;
+    margin-left: 0.5rem;
+}
+.movie-seciotn-items:nth-child(4n + 1){
+   flex-basis: 20%;
+}
+.movie-seciotn-items:nth-child(4n + 2){
+    flex-basis: 40%;
+ }
+ .movie-seciotn-items:nth-child(4n + 3){
+    flex-basis: 20%;
+ }
+ .movie-seciotn-items:nth-child(4n + 4){
+    flex-basis: 35%;
+ }
+ footer{
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 1.2rem;
+ }
