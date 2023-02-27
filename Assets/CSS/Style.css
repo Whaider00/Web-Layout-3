@@ -101,30 +101,104 @@ nav{
 #section-title{
     text-align: center;
     font-size: 2rem;
-    padding: 2rem 0;
+    padding: 1.63rem;
 }
 #available-movie-1{
     display: flex;
     background-color: var(--black);
     color: var(--white);
     align-items: center;
-    justify-content: space-between;
-    padding-right: 4rem;
+    margin-bottom: 1rem;
+}
+.available-movie-image{
+    flex-basis: 30%;
+    height: 40.25rem;
+}
+.available-movie-image img{
+    height: 100%;
+}
+.available-movie-title{
+    padding-left: 3rem;
+    padding-right: 10rem;
 }
 .available-movie-title h1{
     font-size: 2rem;
-    padding-bottom: 0.625rem;
+    margin-bottom: 1rem;
 }
 .available-movie-title h4{
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 .available-movie-title p{
-    padding-bottom: 1.25rem;
+    margin-bottom: 1rem;
     line-height: 1.4rem;
 }
 .available-movie-title h3{
     text-decoration: underline;
 }
-.available-movie-image{
-    height: 56.25rem;
+#available-movie-2{
+    display: flex;
+    background-color: var(--black);
+    color: var(--white);
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-direction: row-reverse;
+}
+#download-header img{
+    width: 100%;
+}
+#download-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -0.25rem;
+}
+#download-details img{
+    width: 60px;
+}
+#download-detail-1{
+    background-color: var(--black);
+    flex-grow: 1;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#download-detail-1 i{
+    font-size: 2.5rem;
+}
+#download-detail-2{
+    background-color: var(--white);
+    flex-grow: 2;
+    padding: 0.8rem;
+    box-sizing: border-box;
+}
+#genre-section{
+    display: flex;
+}
+#genre-section div:nth-child(2){
+    margin-left: 2rem;
+    margin-top: 0.2rem;
+}
+#cast-section{
+    display: flex;
+    align-items: center;
+    margin-top: 0.6rem;
+}
+#cast-images{
+    margin-left: 2.6rem;
+    margin-top: 0.2rem;
+}
+#cast-images img{
+    border-radius: 50%;
+}
+#download-detail-3{
+    background-color: var(--yellow);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#download-detail-3 h2{
+    font-size: 2.5rem;
 }
